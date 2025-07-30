@@ -13,6 +13,7 @@ Mini Cat Gallery is a small Vue 3 application built with Vite. It displays six c
 - Vite
 - TypeScript
 - CSS Grid
+- HTML
 
 ## Getting Started
 1. Enter the project directory:
