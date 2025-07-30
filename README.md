@@ -1,22 +1,33 @@
-Mini Cat Gallery
-Overview
-Mini Cat Gallery is a simple Vue 3 application built with Vite. It fetches 6 random cat images from TheCatAPI, displays them in a responsive grid, and lets users click any thumbnail to view a larger image in a modal. A “Refresh Cats” button reloads the gallery with new random images.
+# Mini Cat Gallery
 
-Features
-Random Cat Images: Retrieves 6 images per request.
+Mini Cat Gallery is a small Vue 3 application built with Vite. It displays six cat images that come bundled with the project. A button lets you fetch another set of images from TheCatAPI.
 
-Grid Layout: CSS Grid ensures a clean, responsive thumbnail gallery.
+## Features
+- Shows six pre-provided cat pictures in a responsive grid
+- Click a picture to open a larger modal view
+- Refresh button loads a new set of cats
+- Loading spinner while images are being fetched
 
-Modal Preview: Click a thumbnail to open a full-size view; click outside or press × to close.
+## Tech Stack
+- Vue 3
+- Vite
+- TypeScript
+- CSS Grid
 
-Refresh Button: Reloads the gallery with fresh cat pictures.
-
-Loading Indicator: Displays a spinning loader while fetching data.
-
-
-Tech Stack
-Vue 3
-Vite (Dev server & build tool)
-TypeScript 
-CSS Grid 
-
+## Getting Started
+1. Enter the project directory:
+   ```bash
+   cd 2/project
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+4. Build for production:
+   ```bash
+   npm run build
+   ```
